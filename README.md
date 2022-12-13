@@ -1,4 +1,5 @@
-# hepatitys prediction
+# Intro
+## Hepatitys prediction
 Predicted results for hepatitys based on 18 correlated features,  150 samples.
 
 Hepatitis is inflammation of the liver. It can be caused by viruses or by the use of some medicines, alcohol and other drugs,
