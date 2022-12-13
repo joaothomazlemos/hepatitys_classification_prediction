@@ -9,7 +9,9 @@ In Brazil, more than 70% (23,070) of deaths due to viral hepatitis are due to He
 The country registered 40,198 new cases of viral hepatitis in 2017.
 
 # Methods
-I explored the dataset to treat missing our unkown values, outliers, skewness and separated 90% of data for training using crossvalidation, and
+First,  separated 90% of data for training using that was later used in crossvalidation. I explored the dataset to treat missing our unkown values, outliers, skewness. I also did setup the coluns into the right datatypes, which are categoricals and numericals. I also treated the testset in the same separated way, to avoid dataleak.
+Then, I used gridsearch on 5 popular classification models (logistic regression, SVM, gaussianGB, random forest and XGBoost), to get the best parameters for each.
+Finally, I applied the model with the best accuracy metric given the best parameters, against the unseen testset of 13 samples.
 
 # Results and analisys
 
