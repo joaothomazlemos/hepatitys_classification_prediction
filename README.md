@@ -8,6 +8,9 @@ Viral hepatitis are inflammations caused by viruses that are classified by lette
 In Brazil, more than 70% (23,070) of deaths due to viral hepatitis are due to Hepatitis C, followed by Hepatitis B (21.8%) and A (1.7%). 
 The country registered 40,198 new cases of viral hepatitis in 2017.
 
+# Methods
+I explored the dataset to treat missing our unkown values, outliers, skewness and separated 90% of data for training using crossvalidation, and
+
 # Results and analisys
 
 ![image](https://user-images.githubusercontent.com/62029505/207414402-30eda9be-2758-4e76-83eb-00960c36c191.png)
